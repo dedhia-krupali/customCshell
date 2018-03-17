@@ -1,0 +1,140 @@
+Script started on Fri Mar 16 11:15:01 2018
+bash-4.4$ ls
+APUE-3rd linux.pdf
+CLIparse
+Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+ITENARIES
+LinuxBook_A_Practical_Guide_to_Linux.pdf
+Photoshop CC 2017
+Photoshop CC 2017.zip
+Screen Shot 2018-02-16 at 16.55.44.png
+Screen Shot 2018-03-13 at 12.23.46.png
+Web
+app
+courses
+cs 3345
+cs3377
+dL appointment.pdf
+data structures and algorith analysis with java.pdf
+make_samples
+mips
+myshell.cpp
+myshell1.cpp
+myshell2.c
+node js
+receipts
+resume
+sampleOutput
+tutorials
+~$ademic goals assignment .docx
+bash-4.4$ pwd
+/Users/krupalidedhia/Desktop
+bash-4.4$ clear
+[H[2Jbash-4.4$ ls -l
+total 3108832
+-rw-r--r--@  1 krupalidedhia  staff    20599339 Feb 20 09:35 APUE-3rd linux.pdf
+drwxr-xr-x   6 krupalidedhia  staff         192 Jan 24 10:53 CLIparse
+-rw-r--r--@  1 krupalidedhia  staff    10027295 Jan 17  2017 Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+drwxr-xr-x   5 krupalidedhia  staff         160 Jun 28  2017 ITENARIES
+-rw-r--r--@  1 krupalidedhia  staff     5423067 Jan 20 16:35 LinuxBook_A_Practical_Guide_to_Linux.pdf
+drwxr-xr-x   9 krupalidedhia  staff         288 Feb 22 13:20 Photoshop CC 2017
+-rwxrwxrwx@  1 krupalidedhia  staff  1549814560 Jan 13 16:41 Photoshop CC 2017.zip
+-rw-r--r--@  1 krupalidedhia  staff      215872 Feb 16 16:55 Screen Shot 2018-02-16 at 16.55.44.png
+-rw-r--r--@  1 krupalidedhia  staff      740200 Mar 13 12:23 Screen Shot 2018-03-13 at 12.23.46.png
+drwxr-xr-x  11 krupalidedhia  staff         352 Jun 27  2017 Web
+drwxr-xr-x   4 krupalidedhia  staff         128 Aug 31  2017 app
+drwxr-xr-x  33 krupalidedhia  staff        1056 Mar  4 16:53 courses
+drwxr-xr-x  11 krupalidedhia  staff         352 Mar 16 09:45 cs 3345
+drwxr-xr-x  27 krupalidedhia  staff         864 Mar 16 11:14 cs3377
+-rw-------@  1 krupalidedhia  staff       77459 Feb 26 16:21 dL appointment.pdf
+-rw-r--r--@  1 krupalidedhia  staff     4780011 Jan 15 15:20 data structures and algorith analysis with java.pdf
+drwxr-xr-x   8 krupalidedhia  staff         256 Mar 14 22:10 make_samples
+drwxr-xr-x  13 krupalidedhia  staff         416 Jan 27 18:27 mips
+-rw-r--r--   1 krupalidedhia  staff        3238 Mar 16 01:05 myshell.cpp
+-rw-r--r--@  1 krupalidedhia  staff        1896 Mar 13 18:10 myshell1.cpp
+-rw-r--r--@  1 krupalidedhia  staff       12856 Mar 16 00:58 myshell2.c
+drwxr-xr-x   9 krupalidedhia  staff         288 Sep 12  2017 node js
+drwxr-xr-x  18 krupalidedhia  staff         576 Sep  2  2017 receipts
+drwxr-xr-x  13 krupalidedhia  staff         416 Feb 14 18:56 resume
+-rw-r--r--   1 krupalidedhia  staff          43 Mar 16 11:15 sampleOutput
+drwxr-xr-x   8 krupalidedhia  staff         256 Aug 13  2017 tutorials
+-rw-------@  1 krupalidedhia  staff         162 Sep 15  2016 ~$ademic goals assignment .docx
+bash-4.4$ ls > list.txt
+bash-4.4$ cat list
+cat: list: No such file or directory
+bash-4.4$ cat list.txt
+APUE-3rd linux.pdf
+CLIparse
+Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+ITENARIES
+LinuxBook_A_Practical_Guide_to_Linux.pdf
+Photoshop CC 2017
+Photoshop CC 2017.zip
+Screen Shot 2018-02-16 at 16.55.44.png
+Screen Shot 2018-03-13 at 12.23.46.png
+Web
+app
+courses
+cs 3345
+cs3377
+dL appointment.pdf
+data structures and algorith analysis with java.pdf
+list.txt
+make_samples
+mips
+myshell.cpp
+myshell1.cpp
+myshell2.c
+node js
+receipts
+resume
+sampleOutput
+tutorials
+~$ademic goals assignment .docx
+bash-4.4$ pwd;ls
+/Users/krupalidedhia/Desktop
+APUE-3rd linux.pdf
+CLIparse
+Discrete Mathematics (7th Edition) Kenneth H. Rosen.pdf
+ITENARIES
+LinuxBook_A_Practical_Guide_to_Linux.pdf
+Photoshop CC 2017
+Photoshop CC 2017.zip
+Screen Shot 2018-02-16 at 16.55.44.png
+Screen Shot 2018-03-13 at 12.23.46.png
+Web
+app
+courses
+cs 3345
+cs3377
+dL appointment.pdf
+data structures and algorith analysis with java.pdf
+list.txt
+make_samples
+mips
+myshell.cpp
+myshell1.cpp
+myshell2.c
+node js
+receipts
+resume
+sampleOutput
+tutorials
+~$ademic goals assignment .docx
+bash-4.4$ ls | grep my 
+myshell.cpp
+myshell1.cpp
+myshell2.c
+bash-4.4$ ls | grep my | wc -l
+       3
+bash-4.4$ cd 3377[K[K[K[Kcs [K3377
+bash-4.4$ pwd
+/Users/krupalidedhia/Desktop/cs3377
+bash-4.4$ cd ..
+bash-4.4$ pwd
+/Users/krupalidedhia/Desktop
+bash-4.4$ clear
+[H[2Jbash-4.4$ exit
+exit
+
+Script done on Fri Mar 16 11:16:30 2018

@@ -1,0 +1,13 @@
+Script started on Fri Mar 16 11:12:22 2018
+bash-4.4$ cd cs3377
+bash-4.4$ l[Kcs PA_03_Krupali_Dedhia/
+bash: cs: command not found
+bash-4.4$ cd PA_03_Krupali_Dedhia/
+bash-4.4$ ls
+myshell.c	output
+bash-4.4$ gcc myshell.c -o ouputfile
+bash-4.4$ ls
+myshell.c	ouputfile	output
+bash-4.4$ exit
+
+Script done on Fri Mar 16 11:14:02 2018
